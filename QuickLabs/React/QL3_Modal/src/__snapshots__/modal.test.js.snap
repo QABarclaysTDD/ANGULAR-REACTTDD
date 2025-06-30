@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Modal Component Snapshot Testing should match snapshot when modal is closed 1`] = `<DocumentFragment />`;
+
+exports[`Modal Component Snapshot Testing should match snapshot when modal is open 1`] = `
+<DocumentFragment>
+  <div
+    data-testid="modal-overlay"
+    style="position: fixed; top: 0px; left: 0px; right: 0px; bottom: 0px; background-color: rgba(0, 0, 0, 0.5); display: flex; align-items: center; justify-content: center; z-index: 1000;"
+  >
+    <div
+      aria-labelledby="modal-title"
+      aria-modal="true"
+      role="dialog"
+      style="background-color: white; border-radius: 8px; padding: 24px; max-width: 90vw; max-height: 90vh; overflow: auto; position: relative; outline: none;"
+      tabindex="-1"
+    >
+      <button
+        aria-label="Close modal"
+        style="position: absolute; top: 8px; right: 8px; background: none; font-size: 24px; cursor: pointer; padding: 8px; line-height: 1; color: rgb(102, 102, 102);"
+        type="button"
+      >
+        ×
+      </button>
+      <div
+        id="modal-title"
+      >
+        <div>
+          Modal Content
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
